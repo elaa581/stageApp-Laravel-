@@ -1,0 +1,68 @@
+/* Container */
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 50%, #fafafa 100%);
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #dc2626;
+    margin-bottom: 32px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Formulaire card */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Labels */
+form label {
+    display: block;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 6px;
+}
+
+/* Inputs et textarea */
+form .form-control {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    font-size: 14px;
+    margin-bottom: 16px;
+    transition: all 0.2s ease;
+}
+
+form .form-control:focus {
+    border-color: #dc2626;
+    box-shadow: 0 0 0 3px rgba(220,38,38,0.15);
+    outline: none;
+}
+
+/* Bouton Envoyer */
+.btn-success {
+    width: 100%;
+    padding: 14px;
+    background: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-success:hover {
+    background: #b91c1c;
+    transform: translateY(-2px);
+}

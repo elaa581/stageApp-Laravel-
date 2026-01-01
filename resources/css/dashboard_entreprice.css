@@ -1,0 +1,66 @@
+/* Container global */
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 50%, #fafafa 100%);
+    padding: 20px;
+}
+
+/* Titre de la page */
+h1 {
+    color: #dc2626;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Row flexible */
+.row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Card Dashboard */
+.card {
+    flex: 1 1 250px;
+    border-radius: 16px;
+    padding: 24px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+/* Card titre */
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* Card texte */
+.card-text {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Couleurs des cards */
+.card.bg-primary {
+    background: linear-gradient(135deg, #dc2626, #ef4444);
+}
+
+.card.bg-success {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.card.bg-warning {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+

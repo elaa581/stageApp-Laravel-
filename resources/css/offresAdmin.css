@@ -1,0 +1,51 @@
+/* Body et titres */
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 50%, #fafafa 100%);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #dc2626;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+thead {
+    background: #dc2626;
+    color: white;
+}
+
+thead th {
+    padding: 12px 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+    transition: background 0.2s ease;
+}
+
+tbody tr:hover {
+    background: #fee2e2;
+}
+
+tbody td {
+    padding: 12px 16px;
+    color: #475569;
+    font-size: 14px;
+    vertical-align: middle;
+}

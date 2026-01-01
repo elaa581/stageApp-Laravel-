@@ -1,0 +1,71 @@
+/* ===========================
+   AUTH / LOGIN PAGE
+=========================== */
+
+
+
+
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fef2f2, #fee2e2);
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.auth-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #dc2626;
+  margin-bottom: 24px;
+}
+
+/* Labels */
+.auth-card label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.auth-card .form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.auth-card .form-control:focus {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+}
+
+/* Button */
+.btn-auth {
+  width: 100%;
+  background: #dc2626;
+  color: white;
+  font-weight: 600;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btn-auth:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+}
+

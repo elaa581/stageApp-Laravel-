@@ -1,0 +1,89 @@
+/* Container centré et fond dégradé */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fef2f2, #fee2e2, #fafafa);
+    padding: 20px;
+}
+
+/* Card blanche */
+.auth-card {
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 36px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Titre du formulaire */
+.auth-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #dc2626;
+    margin-bottom: 24px;
+}
+
+/* Groupe de champs pour alignement */
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+/* Input stylé */
+.auth-card .form-control {
+    flex: 1;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.auth-card .form-control:focus {
+    border-color: #3b82f6; /* couleur bleue pour entreprise */
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+    outline: none;
+}
+
+/* Bouton bleu pour entreprise */
+.btn-company {
+    width: 100%;
+    padding: 14px;
+    background: #3b82f6; /* bleu info */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-company:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+/* Lien sous le formulaire */
+.auth-link {
+    color: #dc2626;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth-link:hover {
+    text-decoration: underline;
+    color: #b91c1c;
+}

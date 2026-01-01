@@ -1,0 +1,61 @@
+/* Body et container */
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 50%, #fafafa 100%);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #dc2626;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Grid des cards */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+/* Card stats */
+.card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+/* Card titre */
+.card h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+/* Card valeur */
+.card p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #dc2626;
+}
+
+/* Canvas Chart */
+.chart-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+
